@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-google-map": [
+        "dist/angular-google-map"
+      ],
+      "angular-google-map/*": [
+        "dist/angular-google-map/*"
+      ]
+    }
   }
 }

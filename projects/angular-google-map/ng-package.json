@@ -1,0 +1,11 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/angular-google-map",
+  "lib": {
+    "entryFile": "src/public_api.ts"
+  },
+  "whitelistedNonPeerDependencies":{
+    "@google/maps": "^0.5.5",
+    "@types/googlemaps": "^3.37.0"
+  }
+}
