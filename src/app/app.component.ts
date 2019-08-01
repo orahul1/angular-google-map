@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular2-google-map';
   settings = {
-    zoomValue: 1500,
+    zoomValue: 15,
     isGeolocation: false,
     customStyles: [],
     latitude: 40.7128,

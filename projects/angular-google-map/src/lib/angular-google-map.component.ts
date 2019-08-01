@@ -20,8 +20,8 @@ export class AngularGoogleMapComponent implements OnInit {
     zoomValue: 15,
     isGeolocation: false,
     customStyles: [],
-    latitude: 8.546814399999999,
-    longitude: 76.8790981,
+    latitude: 8.5581,
+    longitude: 76.8816,
     enableGestureHandling: 'greedy',
     disableDefaultUI: true,
     isSatelliteView: false,
@@ -56,7 +56,7 @@ export class AngularGoogleMapComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.mapSettings)
+    this.isDarkMode();
     this.mapProp = {
       center: new google.maps.LatLng(this.mapSettings.latitude, this.mapSettings.longitude),
       zoom: this.mapSettings.zoomValue,
@@ -68,8 +68,6 @@ export class AngularGoogleMapComponent implements OnInit {
       gestureHandling: this.mapSettings.enableGestureHandling,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
-
-    this.isDarkMode();
     this.geolocation();
     this.map = new google.maps.Map(this.gmapElement.nativeElement, this.mapProp);
     this.createMarker();

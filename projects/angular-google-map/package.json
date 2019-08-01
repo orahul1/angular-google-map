@@ -1,12 +1,42 @@
 {
   "name": "ang-google-map",
-  "version": "0.0.1",
+  "version": "0.0.9",
   "peerDependencies": {
     "@angular/common": "^7.1.0",
-    "@angular/core": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  },
+  "dependencies": {
+    "tslib": "^1.9.0",
     "@google/maps": "^0.5.5",
     "@types/googlemaps": "^3.37.0"
   },
-  "dependencies": {
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orahul1/angular-google-map"
+  },
+  "keywords": [
+    "angular",
+    "angular 2",
+    "angular 2 google map",
+    "angular google map",
+    "angular 2 google map",
+    "angular 8 google map",
+    "angular 8 map"
+  ],
+  "author": "Rahul Raveendran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orahul1/angular-google-map/issues"
+  },
+  "homepage": "https://github.com/orahul1/angular-google-map",
+  "main": "bundles/ang-google-map.umd.js",
+  "module": "fesm5/ang-google-map.js",
+  "es2015": "fesm2015/ang-google-map.js",
+  "esm5": "esm5/ang-google-map.js",
+  "esm2015": "esm2015/ang-google-map.js",
+  "fesm5": "fesm5/ang-google-map.js",
+  "fesm2015": "fesm2015/ang-google-map.js",
+  "typings": "ang-google-map.d.ts",
+  "metadata": "ang-google-map.metadata.json",
+  "sideEffects": false
 }

@@ -24,14 +24,16 @@ Angular 2+ Google Map Component.
 
 
 ### Usage
-Import `AngularGoogleMapModule` into `NgModule` in `app.module.ts`.
+Import `AngularGoogleMapModule` into `NgModule` in `app.module.ts`. `CommonModule` is also required.
 ```js
 import { AngularGoogleMapModule } from 'ang-google-map';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   // ...
   imports: [
-    AngularWeatherWidgetModule
+    AngularWeatherWidgetModule,
+    CommonModule
   ]
   // ...
 })
