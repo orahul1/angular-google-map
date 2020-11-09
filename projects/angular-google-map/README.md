@@ -32,7 +32,7 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   // ...
   imports: [
-    AngularWeatherWidgetModule,
+    AngularGoogleMapModule,
     CommonModule
   ]
   // ...
